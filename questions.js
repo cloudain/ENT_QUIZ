@@ -6277,7 +6277,7 @@ window.QUIZ_DATA = [
     "confidence": "Chắc chắn",
     "source": "Đề TN TMH 2026 câu 14",
     "citation": "GT Bài 10 & Bài 13: Điểm mạch Kiesselbach được tạo thành từ 4 nhánh tiếp nối: ĐM sàng trước, ĐM bướm khẩu cái, ĐM khẩu cái lớn và nhánh vách ngăn của ĐM môi trên. ĐM mắt là thân động mạch lớn đi trong ổ mắt (phát ra ĐM sàng trước) chứ không trực tiếp nối vào điểm mạch."
-  }
+  },
 {
     "id": 360,
     "module": "Nhi (TMH trẻ em)",
@@ -6294,5 +6294,5 @@ window.QUIZ_DATA = [
     "confidence": "Chắc chắn",
     "source": "Đề TN TMH 2026 câu 15 (Trắc nghiệm lượng giá GT Bài 15 tr. 221)",
     "citation": "GT Bài 15 Dị vật đường ăn - thở, câu lượng giá số 2 tr. 221[cite: 11]: Khí quản gồm các vòng sụn hình chữ C/chữ D hở phía sau, thành trước và bên là sụn, thành sau là lớp màng sợi - cơ tiếp giáp với thực quản[cite: 11] -> C đúng. Các câu còn lại sai vì: A sai do thanh quản chia 3 tầng là thượng thanh môn, thanh môn và hạ thanh môn; B sai vì dị vật phế quản thường gặp nhất (chiếm > 70-80%); D sai vì phế quản gốc phải to hơn, dốc hơn và ngắn hơn."
-  }
+  },
 ];
