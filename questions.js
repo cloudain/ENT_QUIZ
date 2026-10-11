@@ -6025,7 +6025,7 @@ window.QUIZ_DATA = [
     "source": "CC Mũi xoang CKI/CKII câu 19 (2025)",
     "citation": "Giáo trình Bài 10 GP-SL mũi xoang, tr. 144: Khe bán nguyệt là khe hở hình liềm hai chiều nằm ở thành ngoài hốc mũi, được giới hạn ở phía trước - dưới bởi bờ tự do sau-trên của mỏm móc (uncinate process) và ở phía sau - trên bởi mặt trước của bóng sàng (ethmoid bulla). Qua khe này sẽ đi vào phễu sàng (ethmoid infundibulum)."
   },
-  {
+ {
     "id": 345,
     "topic": "Mũi xoang - Viêm mũi xoang cấp",
     "question": "Biến chứng ổ mắt do viêm xoang cấp phân loại giai đoạn 4 (Group IV) theo phân loại kinh điển của Chandler là:",
@@ -6089,7 +6089,7 @@ window.QUIZ_DATA = [
     "answer": "D",
     "confidence": "Khá chắc",
     "source": "Đề TN TMH 2026 câu 3",
-    "citation": "GT Bài 15 Dị vật đường ăn - thở, tr. 214-222”
+    "citation": "GT Bài 15 Dị vật đường ăn - thở, tr. 214-222"
   },
   {
     "id": 349,
@@ -6167,7 +6167,7 @@ window.QUIZ_DATA = [
     "question": "Đặc điểm của hạt xơ dây thanh (Vocal nodules):",
     "options": {
       "A": "Tổn thương đơn độc ở 1/3 sau dây thanh",
-      "B": " Tổn thương đơn độc ở 1/3 giữa dây thanh ",
+      "B": "Tổn thương đơn độc ở 1/3 giữa dây thanh",
       "C": "Còn được gọi là 'Kissing nodules'",
       "D": "Không gây ảnh hưởng đến giọng nói"
     },
@@ -6252,7 +6252,7 @@ window.QUIZ_DATA = [
     "question": "Dấu hiệu gián tiếp trên phim chụp X-quang ngực thẳng gợi ý dị vật đường thở không cản quang là:",
     "options": {
       "A": "Tràn khí màng phổi thường gặp",
-      "B": "Có thể có hình ảnh ứ khí phế nang ",
+      "B": "Có thể có hình ảnh ứ khí phế nang",
       "C": "Luôn luôn nhìn thấy rõ bóng cản quang của dị vật",
       "D": "Luôn có xẹp phổi cùng bên"
     },
@@ -6278,7 +6278,7 @@ window.QUIZ_DATA = [
     "source": "Đề TN TMH 2026 câu 14",
     "citation": "GT Bài 10 & Bài 13: Điểm mạch Kiesselbach được tạo thành từ 4 nhánh tiếp nối: ĐM sàng trước, ĐM bướm khẩu cái, ĐM khẩu cái lớn và nhánh vách ngăn của ĐM môi trên. ĐM mắt là thân động mạch lớn đi trong ổ mắt (phát ra ĐM sàng trước) chứ không trực tiếp nối vào điểm mạch."
   },
-{
+  {
     "id": 360,
     "module": "Nhi (TMH trẻ em)",
     "lesson": "Dị vật đường thở",
@@ -6293,6 +6293,6 @@ window.QUIZ_DATA = [
     "answer": "C",
     "confidence": "Chắc chắn",
     "source": "Đề TN TMH 2026 câu 15 (Trắc nghiệm lượng giá GT Bài 15 tr. 221)",
-    "citation": "GT Bài 15 Dị vật đường ăn - thở, câu lượng giá số 2 tr. 221[cite: 11]: Khí quản gồm các vòng sụn hình chữ C/chữ D hở phía sau, thành trước và bên là sụn, thành sau là lớp màng sợi - cơ tiếp giáp với thực quản[cite: 11] -> C đúng. Các câu còn lại sai vì: A sai do thanh quản chia 3 tầng là thượng thanh môn, thanh môn và hạ thanh môn; B sai vì dị vật phế quản thường gặp nhất (chiếm > 70-80%); D sai vì phế quản gốc phải to hơn, dốc hơn và ngắn hơn."
+    "citation": "GT Bài 15 Dị vật đường ăn - thở, câu lượng giá số 2 tr. 221: Khí quản gồm các vòng sụn hình chữ C/chữ D hở phía sau, thành trước và bên là sụn, thành sau là lớp màng sợi - cơ tiếp giáp với thực quản -> C đúng. Các câu còn lại sai vì: A sai do thanh quản chia 3 tầng là thượng thanh môn, thanh môn và hạ thanh môn; B sai vì dị vật phế quản thường gặp nhất (chiếm > 70-80%); D sai vì phế quản gốc phải to hơn, dốc hơn và ngắn hơn."
   }
 ];
