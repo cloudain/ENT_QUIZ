@@ -6039,7 +6039,7 @@ window.QUIZ_DATA = [
     "confidence": "Chắc chắn",
     "source": "CC Mũi xoang CKI/CKII câu 20 (2025)",
     "citation": "Giáo trình Bài 11 VMX cấp & Phân loại Chandler: Phân loại 5 nhóm biến chứng ổ mắt do viêm xoang của Chandler gồm: Nhóm I: Phù nề trước vách (Preseptal cellulitis); Nhóm II: Viêm mô tế bào ổ mắt (Orbital cellulitis); Nhóm III: Áp xe dưới màng xương (Subperiosteal abscess); Nhóm IV: Áp xe ổ mắt (Orbital abscess - hình thành ổ mủ thực sự bên trong tổ chức mỡ hốc mắt); Nhóm V: Viêm tắc xoang hang (Cavernous sinus thrombosis)."
-  }
+  },
   {
     "id": 346,
     "module": "U đầu cổ họng thanh quản",
@@ -6294,5 +6294,5 @@ window.QUIZ_DATA = [
     "confidence": "Chắc chắn",
     "source": "Đề TN TMH 2026 câu 15 (Trắc nghiệm lượng giá GT Bài 15 tr. 221)",
     "citation": "GT Bài 15 Dị vật đường ăn - thở, câu lượng giá số 2 tr. 221[cite: 11]: Khí quản gồm các vòng sụn hình chữ C/chữ D hở phía sau, thành trước và bên là sụn, thành sau là lớp màng sợi - cơ tiếp giáp với thực quản[cite: 11] -> C đúng. Các câu còn lại sai vì: A sai do thanh quản chia 3 tầng là thượng thanh môn, thanh môn và hạ thanh môn; B sai vì dị vật phế quản thường gặp nhất (chiếm > 70-80%); D sai vì phế quản gốc phải to hơn, dốc hơn và ngắn hơn."
-  },
+  }
 ];
