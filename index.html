@@ -102,7 +102,7 @@
         <!-- Dropdown Bookmark -->
         <div class="relative inline-block text-left">
           <button id="bookmark-menu-btn" onclick="toggleDropdown('bookmark-dropdown')" class="bg-amber-600 hover:bg-amber-500 px-3 py-1.5 rounded-lg font-medium transition flex items-center gap-1.5 shadow-sm">
-            <i class="fa-solid fa-star"></i> Xuất Bookmark (<span id="bookmark-badge-count">0</span>) <i class="fa-solid fa-chevron-down text-[10px]"></i>
+            <i class="fa-solid fa-star"></i> Bookmark (<span id="bookmark-badge-count">0</span>) <i class="fa-solid fa-chevron-down text-[10px]"></i>
           </button>
           <div id="bookmark-dropdown" class="hidden absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-lg border border-slate-200 py-1 z-50 text-slate-700 text-xs font-medium">
             <button onclick="exportBookmarks('txt')" class="w-full text-left px-4 py-2 hover:bg-slate-50 flex items-center gap-2">
@@ -114,6 +114,12 @@
           </div>
         </div>
 
+        <!-- Nút Xuất Word -->
+        <button onclick="exportCurrentQuestionsToWord()" class="bg-blue-600 hover:bg-blue-500 px-3 py-1.5 rounded-lg font-medium transition flex items-center gap-1.5 shadow-sm" title="Xuất danh sách các câu hỏi đang hiển thị ra tệp Word (.doc)">
+          <i class="fa-solid fa-file-word"></i> Xuất Word
+        </button>
+
+        <!-- Nút Lưu questions.js -->
         <button id="export-js-btn" class="bg-teal-600 hover:bg-teal-500 px-3 py-1.5 rounded-lg font-medium transition flex items-center gap-1.5 shadow-sm" title="Lưu dữ liệu thành file questions.js">
           <i class="fa-solid fa-download"></i> Lưu questions.js
         </button>
@@ -175,7 +181,7 @@
           </label>
           <select id="exam-year-select" class="w-full bg-teal-50/60 border border-teal-300 text-teal-900 font-medium text-xs sm:text-sm rounded-lg p-2.5 focus:ring-2 focus:ring-teal-500 outline-none">
             <option value="all">Tất cả các năm</option>
-            <option value="2026">Bộ đề CC năm 2026</option>
+            <option value="2026">Bộ đề CC/TN năm 2026</option>
             <option value="2025">Bộ đề CC năm 2025</option>
             <option value="2024">Bộ đề CC năm 2024</option>
             <option value="2023">Bộ đề CC năm 2023</option>
@@ -249,7 +255,7 @@
 
   <!-- MODAL PHÂN TÍCH KẾT QUẢ -->
   <div id="analytics-modal" class="fixed inset-0 bg-slate-900/50 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
-    <div class="bg-white rounded-2xl shadow-xl border border-slate-200 w-full max-w-3xl max-h-[92vh] flex flex-col overflow-hidden animate-in fade-in duration-200">
+    <div class="bg-white rounded-2xl shadow-xl border border-slate-200 w-full max-w-3xl max-h-[92vh] flex flex-col overflow-hidden">
       <div class="px-6 py-4 bg-indigo-700 text-white flex justify-between items-center">
         <h3 class="font-bold text-base flex items-center gap-2">
           <i class="fa-solid fa-chart-pie text-indigo-200"></i> Phân tích kết quả ôn tập & Khuyến nghị học tập
@@ -1115,6 +1121,81 @@
         copyStatusMsg.textContent = "✓ Đã copy vào clipboard!";
         setTimeout(() => copyStatusMsg.textContent = "", 3000);
       });
+    };
+
+    // CHỨC NĂNG XUẤT FILE WORD (.DOC)
+    window.exportCurrentQuestionsToWord = function() {
+      if (!currentlyFilteredQuestions || currentlyFilteredQuestions.length === 0) {
+        alert("Không có câu hỏi nào đang hiển thị để xuất file!");
+        return;
+      }
+
+      const count = currentlyFilteredQuestions.length;
+      let bodyContent = `
+        <h2 style="color: #0f766e; text-align: center; font-family: 'Times New Roman', serif;">
+          BỘ CÂU HỎI TRẮC NGHIỆM TAI MŨI HỌNG (${count} CÂU)
+        </h2>
+        <p style="text-align: center; font-style: italic; font-size: 11pt; color: #555;">
+          Ngày xuất: ${new Date().toLocaleDateString('vi-VN')} | Người tạo: ksdk
+        </p>
+        <hr style="border: 1px solid #0f766e; margin-bottom: 24px;" />
+      `;
+
+      currentlyFilteredQuestions.forEach((q, idx) => {
+        let optionsList = "";
+        if (q.options && Object.keys(q.options).length > 0) {
+          for (const [key, val] of Object.entries(q.options)) {
+            const isCorrect = key === q.answer;
+            optionsList += `
+              <p style="margin: 3px 0 3px 20px; font-size: 12pt; ${isCorrect ? 'color: #047857; font-weight: bold;' : ''}">
+                <b>${key}.</b> ${val}
+              </p>`;
+          }
+        }
+
+        bodyContent += `
+          <div style="margin-bottom: 20px; page-break-inside: avoid; font-family: 'Times New Roman', serif;">
+            <p style="margin-bottom: 4px; font-size: 12pt;">
+              <b style="color: #0f766e;">Câu ${idx + 1} (Gốc #${q.id}):</b> 
+              <span style="font-size: 10pt; color: #6b7280;">[${q.lesson || q.topic || 'Tổng hợp'}${q.source ? ' - ' + q.source : ''}]</span><br/>
+              <b>${q.question}</b>
+            </p>
+            ${optionsList}
+            <div style="margin-top: 6px; padding: 6px 10px; background-color: #f0fdf4; border-left: 3px solid #10b981; font-size: 10.5pt;">
+              <b style="color: #065f46;">Đáp án: ${q.answer || 'Chưa rõ'}</b> 
+              ${q.confidence ? `<span style="color: #4b5563;">(${q.confidence})</span>` : ''}
+              ${q.citation ? `<br/><span style="color: #374151;"><i>Dẫn chứng:</i> ${q.citation}</span>` : ''}
+            </div>
+          </div>
+        `;
+      });
+
+      const htmlDocument = `
+        <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+        <head>
+          <meta charset="utf-8">
+          <title>Tai Mui Hong Quiz</title>
+          <style>
+            body { font-family: 'Times New Roman', serif; font-size: 12pt; line-height: 1.4; }
+          </style>
+        </head>
+        <body>
+          ${bodyContent}
+        </body>
+        </html>
+      `;
+
+      const blob = new Blob(['\ufeff', htmlDocument], {
+        type: 'application/msword;charset=utf-8'
+      });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `TMH_De_On_Tap_${count}_cau.doc`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
     };
 
     function parseUploadedFile(file, callback) {
