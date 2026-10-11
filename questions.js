@@ -6040,4 +6040,259 @@ window.QUIZ_DATA = [
     "source": "CC Mũi xoang CKI/CKII câu 20 (2025)",
     "citation": "Giáo trình Bài 11 VMX cấp & Phân loại Chandler: Phân loại 5 nhóm biến chứng ổ mắt do viêm xoang của Chandler gồm: Nhóm I: Phù nề trước vách (Preseptal cellulitis); Nhóm II: Viêm mô tế bào ổ mắt (Orbital cellulitis); Nhóm III: Áp xe dưới màng xương (Subperiosteal abscess); Nhóm IV: Áp xe ổ mắt (Orbital abscess - hình thành ổ mủ thực sự bên trong tổ chức mỡ hốc mắt); Nhóm V: Viêm tắc xoang hang (Cavernous sinus thrombosis)."
   }
+  {
+    "id": 346,
+    "module": "U đầu cổ họng thanh quản",
+    "lesson": "Ung thư vòm mũi họng",
+    "topic": "U đầu cổ họng thanh quản - Ung thư vòm mũi họng",
+    "question": "Ung thư vòm mũi họng thường di căn đến hạch nhóm nào đầu tiên trên lâm sàng:",
+    "options": {
+      "A": "Hạch cảnh giữa",
+      "B": "Hạch cảnh trên",
+      "C": "Hạch cổ trước",
+      "D": "Hạch dưới hàm"
+    },
+    "answer": "B",
+    "confidence": "Chắc chắn",
+    "source": "Đề TN TMH 2026 câu 1",
+    "citation": "GT Bài 16 UT vòm, tr. 242-257: Vòm mũi họng dẫn lưu bạch huyết đầu tiên đến hạch sau hầu (Rouvière) rồi đến chuỗi hạch cảnh trên sâu (nhóm II). Trên lâm sàng hạch cảnh trên là vị trí hạch sờ thấy đầu tiên và phổ biến nhất (chiếm 70-80%)."
+  },
+  {
+    "id": 347,
+    "module": "Họng thanh quản",
+    "lesson": "Viêm họng cấp",
+    "topic": "Họng thanh quản - Viêm họng cấp",
+    "question": "Virus nào thường gây hội chứng sốt viêm kết mạc kèm viêm mũi họng (Pharyngoconjunctival fever):",
+    "options": {
+      "A": "Rhinovirus",
+      "B": "Adenovirus",
+      "C": "Herpes simplex virus",
+      "D": "Coxsackie virus"
+    },
+    "answer": "B",
+    "confidence": "Chắc chắn",
+    "source": "Đề TN TMH 2026 câu 2",
+    "citation": "GT Bài 2 Viêm họng cấp, tr. 11-21: Hội chứng sốt kết mạc họng đặc trưng bởi sốt, viêm họng đỏ và viêm kết mạc mắt cấp tính là bệnh cảnh điển hình do Adenovirus gây ra."
+  },
+  {
+    "id": 348,
+    "module": "Nhi (TMH trẻ em)",
+    "lesson": "Dị vật đường thở",
+    "topic": "Nhi (TMH trẻ em) - Dị vật đường thở",
+    "question": "Xử trí cấp cứu khi nuốt dị vật kim loại:",
+    "options": {
+      "A": "Thực hiện nghiệm pháp Heimlich ngay",
+      "B": "Nội soi cấp cứu gắp dị vật",
+      "C": "Chờ thải qua phân",
+      "D": "Chụp Xquang xác định vị trí dị vật"
+    },
+    "answer": "D",
+    "confidence": "Khá chắc",
+    "source": "Đề TN TMH 2026 câu 3",
+    "citation": "GT Bài 15 Dị vật đường ăn - thở, tr. 214-222”
+  },
+  {
+    "id": 349,
+    "module": "Tai",
+    "lesson": "Viêm tai giữa mạn và biến chứng",
+    "topic": "Tai - Viêm tai giữa mạn và biến chứng",
+    "question": "Bệnh nhân viêm tai giữa mạn tính chảy mủ tai thường xuyên, nguyên tắc xử trí nào sau đây KHÔNG ĐÚNG:",
+    "options": {
+      "A": "Rửa tai thường xuyên",
+      "B": "Chăm sóc tai tích cực",
+      "C": "Kiểm soát mô hạt viêm",
+      "D": "Sử dụng thuốc nhỏ tai phù hợp"
+    },
+    "answer": "A",
+    "confidence": "Chắc chắn",
+    "source": "Đề TN TMH 2026 câu 4",
+    "citation": "GT Bài 9 VTG mạn, tr. 128-138: Nguyên tắc điều trị VTG mạn mủ là giữ tai khô, làm sạch mủ bằng bấc thấm hoặc hút sạch, kiểm soát mô hạt và nhỏ thuốc kháng sinh tại chỗ. Bơm rửa nước máy vào tai làm tăng nguy cơ nhiễm trùng."
+  },
+  {
+    "id": 350,
+    "module": "Giải phẫu sinh lý",
+    "lesson": "Giải phẫu bộ máy tiền đình, ốc tai - Sinh lý thăng bằng",
+    "topic": "Giải phẫu sinh lý - Giải phẫu bộ máy tiền đình, ốc tai - Sinh lý thăng bằng",
+    "question": "Vịnh giữa tai trong chứa dịch gì:",
+    "options": {
+      "A": "Nội dịch",
+      "B": "Ngoại dịch",
+      "C": "Huyết tương",
+      "D": "Dị não tủy"
+    },
+    "answer": "A",
+    "confidence": "Chắc chắn",
+    "source": "Đề TN TMH 2026 câu 5",
+    "citation": "GT Bài 5 Giải phẫu tai & sinh lý nghe, tr. 55-60: Tai trong gồm mê đạo màng nằm trong mê đạo xương; lòng mê đạo màng chứa nội dịch (giàu K+), khoang giữa mê đạo xương và mê đạo màng chứa ngoại dịch (giàu Na+)."
+  },
+  {
+    "id": 351,
+    "module": "Họng thanh quản",
+    "lesson": "Viêm Amidan - VA",
+    "topic": "Họng thanh quản - Viêm Amidan - VA",
+    "question": "Chỉ định phẫu thuật cắt amidan nào sau đây là đúng:",
+    "options": {
+      "A": "Viêm amidan 5 lần trong 2 năm",
+      "B": "Amidan phì đại quá phát gây hội chứng ngưng thở khi ngủ (OSAS)",
+      "C": "Viêm amidan cấp đang trong giai đoạn sốt cao",
+      "D": "Mọi trường hợp có sưng amidan ở trẻ em"
+    },
+    "answer": "B",
+    "confidence": "Chắc chắn",
+    "source": "Đề TN TMH 2026 câu 6",
+    "citation": "Hướng dẫn AAO-HNS & Giáo trình TMH: Amidan phì đại gây tắc nghẽn đường thở trên, rối loạn giấc ngủ hoặc hội chứng ngưng thở khi ngủ do tắc nghẽn (OSAS) là chỉ định phẫu thuật cắt amidan tuyệt đối."
+  },
+  {
+    "id": 352,
+    "module": "Mũi xoang",
+    "lesson": "Chảy máu mũi và cách xử trí",
+    "topic": "Mũi xoang - Chảy máu mũi và cách xử trí",
+    "question": "Chảy máu mũi trước chiếm khoảng bao nhiêu phần trăm trong tổng số các ca chảy máu mũi:",
+    "options": {
+      "A": "100%",
+      "B": "90%",
+      "C": "70%",
+      "D": "10%"
+    },
+    "answer": "B",
+    "confidence": "Khá chắc",
+    "source": "Đề TN TMH 2026 câu 7",
+    "citation": "GT Bài 13 Chảy máu mũi & Cummings ch. 46: Đa số các trường hợp chảy máu mũi xuất phát từ phần trước vách ngăn (đám rối Kiesselbach), chiếm tỷ lệ đa số áp đảo (y văn quốc tế ghi ~90%, trong giáo trình giảng dạy kinh điển lựa chọn mốc tỷ lệ cao nhất trong các phương án là 70%)."
+  },
+  {
+    "id": 353,
+    "module": "Họng thanh quản",
+    "lesson": "Bệnh lý thanh quản lành tính",
+    "topic": "Họng thanh quản - Bệnh lý thanh quản lành tính",
+    "question": "Đặc điểm của hạt xơ dây thanh (Vocal nodules):",
+    "options": {
+      "A": "Tổn thương đơn độc ở 1/3 sau dây thanh",
+      "B": " Tổn thương đơn độc ở 1/3 giữa dây thanh ",
+      "C": "Còn được gọi là 'Kissing nodules'",
+      "D": "Không gây ảnh hưởng đến giọng nói"
+    },
+    "answer": "C",
+    "confidence": "Chắc chắn",
+    "source": "Đề TN TMH 2026 câu 8",
+    "citation": "GT Bài 4 Viêm thanh quản mạn, tr. 39: Hạt dây thanh là tổn thương lành tính đối xứng hai bên ở điểm nối 1/3 trước và 1/3 giữa dây thanh, tiếp xúc chạm nhau khi phát âm nên thường được gọi là Kissing nodules."
+  },
+  {
+    "id": 354,
+    "module": "U đầu cổ họng thanh quản",
+    "lesson": "Ung thư vòm mũi họng",
+    "topic": "U đầu cổ họng thanh quản - Ung thư vòm mũi họng",
+    "question": "Bệnh nhân ung thư vòm mũi họng có khối u xâm lấn vào khoang cạnh hầu nhưng chưa xâm lấn xương nền sọ, phân loại T theo giáo trình PNT là:",
+    "options": {
+      "A": "T1",
+      "B": "T2",
+      "C": "T3",
+      "D": "T4"
+    },
+    "answer": "C",
+    "confidence": "Chắc chắn",
+    "source": "Đề TN TMH 2026 câu 9",
+    "citation": "Sách PNT B16 Bảng 16.1 tr. 232: Khối u lan đến khoang cạnh hầu được xếp là T3 (theo barem in của giáo trình PNT; lưu ý theo chuẩn AJCC 8 quốc tế là T2)."
+  },
+  {
+    "id": 355,
+    "module": "U đầu cổ họng thanh quản",
+    "lesson": "Ung thư thanh quản - Hạ họng",
+    "topic": "U đầu cổ họng thanh quản - Ung thư thanh quản - Hạ họng",
+    "question": "Ung thư tầng thanh môn khu trú ở 1 bên dây thanh, dây thanh di động bình thường, chưa xâm lấn mép trước được phân loại là:",
+    "options": {
+      "A": "T1",
+      "B": "T2",
+      "C": "T3",
+      "D": "T4"
+    },
+    "answer": "A",
+    "confidence": "Chắc chắn",
+    "source": "Đề TN TMH 2026 câu 10",
+    "citation": "GT Bài 17 UT thanh quản & Phân loại TNM: Khối u khu trú ở tầng thanh môn, dây thanh di động bình thường: T1a là khu trú 1 dây thanh (chưa lan mép trước), T1b là lan cả hai dây thanh hoặc mép trước."
+  },
+  {
+    "id": 356,
+    "module": "Mũi xoang",
+    "lesson": "Chảy máu mũi và cách xử trí",
+    "topic": "Mũi xoang - Chảy máu mũi và cách xử trí",
+    "question": "Thời gian lưu bấc mũi (meche) hoặc Merocel nhét mũi trước để cầm máu thường được rút sau:",
+    "options": {
+      "A": "sau 3 - 5 ngày",
+      "B": "sau 48 - 72 giờ",
+      "C": "sau 6 - 12 giờ",
+      "D": "Sau 24 giờ"
+    },
+    "answer": "B",
+    "confidence": "Khá chắc",
+    "source": "Đề TN TMH 2026 câu 11",
+    "citation": "GT Bài 13 Chảy máu mũi: Nhét bấc mũi trước (meche/merocel) thường được lưu và rút sau 24 đến 48 giờ để tránh nguy cơ nhiễm trùng, hoại tử niêm mạc và hội chứng sốc nhiễm độc. Cần đáp án bộ môn"
+  },
+  {
+    "id": 357,
+    "module": "Sinh lý bệnh",
+    "lesson": "Sinh lý bệnh tiền đình & chóng mặt ngoại biên",
+    "topic": "Sinh lý bệnh - Sinh lý bệnh tiền đình & chóng mặt ngoại biên",
+    "question": "Trong bệnh chóng mặt kịch phát tư thế lành tính (BPPV), cơ chế bệnh sinh là do sỏi thạch nhĩ di chuyển lạc chỗ vào trong:",
+    "options": {
+      "A": "Các ống bán khuyên",
+      "B": "Soan nang",
+      "C": "Cầu nang",
+      "D": "Ốc tai"
+    },
+    "answer": "A",
+    "confidence": "Chắc chắn",
+    "source": "Đề TN TMH 2026 câu 12",
+    "citation": "Slide Chóng mặt ngoại biên: BPPV hình thành do các tinh thể thạch nhĩ canxi carbonate bong khỏi xoang nang và lạc chỗ di chuyển tự do vào trong lòng các ống bán khuyên (thường gặp nhất là ống bán khuyên sau)."
+  },
+  {
+    "id": 358,
+    "module": "Nhi (TMH trẻ em)",
+    "lesson": "Dị vật đường thở",
+    "topic": "Nhi (TMH trẻ em) - Dị vật đường thở",
+    "question": "Dấu hiệu gián tiếp trên phim chụp X-quang ngực thẳng gợi ý dị vật đường thở không cản quang là:",
+    "options": {
+      "A": "Tràn khí màng phổi thường gặp",
+      "B": "Có thể có hình ảnh ứ khí phế nang ",
+      "C": "Luôn luôn nhìn thấy rõ bóng cản quang của dị vật",
+      "D": "Luôn có xẹp phổi cùng bên"
+    },
+    "answer": "B",
+    "confidence": "Chắc chắn",
+    "source": "Đề TN TMH 2026 câu 13",
+    "citation": "GT Bài 15 Dị vật đường ăn - thở: Đa số dị vật đường thở là hữu cơ (hạt đậu, hạt dưa) không cản quang. Hình ảnh X-quang gián tiếp điển hình là ứ khí phế nang do cơ chế van một chiều (bẫy khí làm phổi sáng hơn, cơ hoành hạ thấp) hoặc xẹp phổi."
+  },
+  {
+    "id": 359,
+    "module": "Giải phẫu sinh lý",
+    "lesson": "Giải phẫu hốc mũi và các xoang cạnh mũi",
+    "topic": "Giải phẫu sinh lý - Giải phẫu hốc mũi và các xoang cạnh mũi",
+    "question": "Động mạch nào sau đây KHÔNG trực tiếp tham gia cấp máu tạo nên đám rối điểm mạch Kiesselbach ở vách ngăn mũi:",
+    "options": {
+      "A": "Động mạch mắt",
+      "B": "Động mạch bướm khẩu cái",
+      "C": "Động mạch khẩu cái lớn",
+      "D": "Nhánh vách ngăn của động mạch môi trên"
+    },
+    "answer": "A",
+    "confidence": "Chắc chắn",
+    "source": "Đề TN TMH 2026 câu 14",
+    "citation": "GT Bài 10 & Bài 13: Điểm mạch Kiesselbach được tạo thành từ 4 nhánh tiếp nối: ĐM sàng trước, ĐM bướm khẩu cái, ĐM khẩu cái lớn và nhánh vách ngăn của ĐM môi trên. ĐM mắt là thân động mạch lớn đi trong ổ mắt (phát ra ĐM sàng trước) chứ không trực tiếp nối vào điểm mạch."
+  }
+{
+    "id": 360,
+    "module": "Nhi (TMH trẻ em)",
+    "lesson": "Dị vật đường thở",
+    "topic": "Nhi (TMH trẻ em) - Dị vật đường thở",
+    "question": "Các mệnh đề sau về đường thở, CHỌN CÂU ĐÚNG:",
+    "options": {
+      "A": "Thanh quản được chia làm ba phần: thượng thanh môn, thanh thất, hạ thanh môn",
+      "B": "Dị vật đường thở thường gặp nhiều nhất ở thanh quản",
+      "C": "Khí quản có hình giống chữ D, thành trước và thành bên là sụn, thành sau là chỉ có lớp màng",
+      "D": "Dị vật rơi vào phế quản gốc phải nhiều hơn phế quản gốc trái vì phế quản gốc phải nhỏ hơn và nằm ngang"
+    },
+    "answer": "C",
+    "confidence": "Chắc chắn",
+    "source": "Đề TN TMH 2026 câu 15 (Trắc nghiệm lượng giá GT Bài 15 tr. 221)",
+    "citation": "GT Bài 15 Dị vật đường ăn - thở, câu lượng giá số 2 tr. 221[cite: 11]: Khí quản gồm các vòng sụn hình chữ C/chữ D hở phía sau, thành trước và bên là sụn, thành sau là lớp màng sợi - cơ tiếp giáp với thực quản[cite: 11] -> C đúng. Các câu còn lại sai vì: A sai do thanh quản chia 3 tầng là thượng thanh môn, thanh môn và hạ thanh môn; B sai vì dị vật phế quản thường gặp nhất (chiếm > 70-80%); D sai vì phế quản gốc phải to hơn, dốc hơn và ngắn hơn."
+  }
 ];
